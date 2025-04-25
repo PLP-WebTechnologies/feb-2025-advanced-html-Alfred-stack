@@ -1,0 +1,110 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Html Assignment</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Games</li>
+        <li>Music</li></li>
+        <li>Programming</li>
+        <li>Sketch</li>
+        <li>Movies</li>
+    </ol>
+
+    <!-- External Image from Pexels.com -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Pexel Image" width="500" height="300">
+
+    <!-- Table of Contacts -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St</td>
+            <td>123-456-7890</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>456 Elm St</td>
+            <td>987-654-3210</td>
+            <td>janedoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Smith</td>
+            <td>789 Oak St</td>
+            <td>555-123-4567</td>
+            <td>mikesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>321 Maple St</td>
+            <td>901-234-5678</td>
+            <td>emilyjohnson@example.com</td>
+        </tr>
+        <tr>
+            <td>David Brown</td>
+            <td>901 Pine St</td>
+            <td>111-222-3333</td>
+            <td>davidbrown@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form id="registration-form">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="mypassword@gmail.com" required>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+        <!-- Date Field -->
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required>
+
+        <!-- Dropdown Field -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Nigeria">Nigeria</option>
+        </select>
+
+        <!-- Radio Buttons Field -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <!-- Checkboxes Field -->
+        <label>Interests:</label>
+        <input type="checkbox" id="reading" name="interests[]" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="hiking" name="interests[]" value="hiking">
+        <label for="hiking">Hiking</label>
+        <
